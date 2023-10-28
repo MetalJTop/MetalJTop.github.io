@@ -105,5 +105,5 @@ deploy:
   type: git
   repo: 
     gitee: https://gitee.com/daryl_dzh/daryl_dzh.gitee.io.git
-    github: git@github.com:JerryGNR/JerryGNR.github.io.git
+    github: git@github.com:MetalJTop/MetalJTop.github.io.git
   branch: master
