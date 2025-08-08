@@ -104,6 +104,6 @@ theme: Chic
 deploy:
   type: git
   repo: 
-    gitee: https://gitee.com/daryl_dzh/daryl_dzh.gitee.io.git
+    gitee: https://gitee.com/dongzh_repo/hexo.gitee.io.git
     github: git@github.com:MetalJTop/MetalJTop.github.io.git
   branch: master
