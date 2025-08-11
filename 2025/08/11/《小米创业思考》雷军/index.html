@@ -15,7 +15,7 @@
     <meta name="keywords" content="音乐, 代码">
 
 
-<title>Hello World | Metal J</title>
+<title>《小米创业思考》雷军 | Metal J</title>
 
 
 
@@ -129,76 +129,11 @@
                 <div class="container">
     
     
-        <div class="post-toc">
-    <div class="tocbot-list">
-    </div>
-    <div class="tocbot-list-menu">
-        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
-        <a onclick="go_top()">Back to top</a>
-        <a onclick="go_bottom()">Go to bottom</a>
-    </div>
-</div>
-
-<script>
-    var tocbot_timer;
-    var DEPTH_MAX = 6; // 为 6 时展开所有
-    var tocbot_default_config = {
-        tocSelector: '.tocbot-list',
-        contentSelector: '.post-content',
-        headingSelector: 'h1, h2, h3, h4, h5',
-        orderedList: false,
-        scrollSmooth: true,
-        onClick: extend_click,
-    };
-
-    function extend_click() {
-        clearTimeout(tocbot_timer);
-        tocbot_timer = setTimeout(function() {
-            tocbot.refresh(obj_merge(tocbot_default_config, {
-                hasInnerContainers: true
-            }));
-        }, 420); // 这个值是由 tocbot 源码里定义的 scrollSmoothDuration 得来的
-    }
-
-    document.ready(function() {
-        tocbot.init(obj_merge(tocbot_default_config, {
-            collapseDepth: 1
-        }));
-    });
-
-    function expand_toc() {
-        var b = document.querySelector('.tocbot-toc-expand');
-        var expanded = b.getAttribute('data-expanded');
-        expanded ? b.removeAttribute('data-expanded') : b.setAttribute('data-expanded', true);
-        tocbot.refresh(obj_merge(tocbot_default_config, {
-            collapseDepth: expanded ? 1 : DEPTH_MAX
-        }));
-        b.innerText = expanded ? 'Expand all' : 'Collapse all';
-    }
-
-    function go_top() {
-        window.scrollTo(0, 0);
-    }
-
-    function go_bottom() {
-        window.scrollTo(0, document.body.scrollHeight);
-    }
-
-    function obj_merge(target, source) {
-        for (var item in source) {
-            if (source.hasOwnProperty(item)) {
-                target[item] = source[item];
-            }
-        }
-        return target;
-    }
-</script>
-    
 
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">Hello World</h1>
+            <h1 class="post-title">《小米创业思考》雷军</h1>
             
                 <div class="post-meta">
                     
@@ -207,28 +142,30 @@
 
                     
                         <span class="post-time">
-                        Date: <a href="#">十月 27, 2023&nbsp;&nbsp;10:39:48</a>
+                        Date: <a href="#">八月 11, 2025&nbsp;&nbsp;9:53:57</a>
                         </span>
                     
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">读书笔记</a>
+                            
+                        </span>
                     
                 </div>
             
         </header>
 
         <div class="post-content">
-            <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+            <p>风口上的猪”这句话的主语是猪，本意是说在进入新领域、寻找新机会时，放低姿态，虚心学习，既要埋头苦干，也要把握时机，顺势而为。<br>思维模型➕差异化定位。<br>面试一个人都是很多次、很认真很认真。<br>因为我们想做的事业很难，光能干还不够，一定要找有共同的愿景、有能力、有责任心的人，找不需要管理者盯着就能自驱动、自己干的人。<br>拆解复杂目标，找到 “可落地的第一步”。承认 “能力边界”，拒绝 “一步到位” 的冒进思维。从 “与核心目标关联度高” 且 “难度最低” 的环节切入。用 “站在巨人肩膀上” 的思维降低创业成本。<br>实验落地不能由熟人测验，他们会因为情感因素干扰数据结果。找到真正有需求的客户，将评判的权利交给他们。<br>自身有一定实力 + 有能人带。<br>人生四行：</p>
+<ol>
+<li>自己得行。</li>
+<li>有人说你行。</li>
+<li>说你行的人得行。</li>
+<li>身体得行。</li>
+</ol>
+<p>看了乔布斯传，再看小米，他们的成功都有一个共同特点，就是高标准，严要求，坚定的坚持自己的目标，目标感很强。抄作业就要去抄最优秀的那一个。<br>沉没成本不参与决策！！<br>为什么雷总每一项生态的尝试都能够取得巨大的成功呢？尝试分析一下原因：<br>第一，非常注重调研，实事求是去找到用户的痛点，解决用户的问题。<br>第二，专注，能够在所有矛盾和痛点中找到主要矛盾，而且是自己能够解决的，符合自身特点的矛盾，然后专注在主要矛盾上。<br>第三，极致，目标定的就高，以行业内做的最好的企业作为标杆，把产品和用户体验做到极致，让用户用起来爽。<br>第四，诚，能够真诚的去面对用户，面对产品，面对供应商，面对整合供应链，从而形成一条牢不可破的护城河。<br>优秀的公司赚取利润，伟大的公司赢得人心！如果你们同意，你们拥有的将是一家注定伟大的公司。<br>沉没成本不参与重大决策，即时掉头。<br>决定做什么和决定不做什么一样重要。<br>组织一旦成立 就有无可抑制的自我成长的冲动和诉求。<br>了不起的极致产品不是只靠一个天才的想法、一个突然出现的灵感就能做出来的，而是要经历长期痛不欲生的修改，一点一点打磨出来。<br>优解通常出现在哪里？我们发现，最优解本身往往并不在于性能指标（按照摩尔定律，性能指标总是会不断提升的），而是源自基于用户需求的更简化或者更集成的实现方法。<br>惊艳不一定只发生在一见钟情，也可能是在蓦然回首。    </p>
 
         </div>
 
@@ -256,8 +193,8 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/2025/08/11/%E3%80%8A%E5%BF%83%E6%B5%81%E3%80%8B%E7%B1%B3%E5%93%88%E9%87%8C/">《心流》米哈里</a>
             
+            <a class="next" rel="next" href="/2025/08/11/%E3%80%8A%E5%BF%83%E6%B5%81%E3%80%8B%E7%B1%B3%E5%93%88%E9%87%8C/">《心流》米哈里</a>
             
         </section>
 
