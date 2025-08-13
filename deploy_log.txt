@@ -1,56 +1,14 @@
 [32mINFO [39m Validating config
 [32mINFO [39m Start processing
-[32mINFO [39m Files loaded in [36m80 ms[39m
-[32mINFO [39m 0 files generated in [36m26 ms[39m
-[32mINFO [39m Validating config
-[32mINFO [39m Start processing
-[32mINFO [39m Files loaded in [36m80 ms[39m
-[32mINFO [39m 0 files generated in [36m26 ms[39m
-[32mINFO [39m Validating config
-[32mINFO [39m Start processing
-[32mINFO [39m Files loaded in [36m79 ms[39m
-[32mINFO [39m 0 files generated in [36m26 ms[39m
-INFO  Validating config
-INFO  Start processing
-INFO  Files loaded in 77 ms
-INFO  0 files generated in 26 ms
-[32mINFO [39m Validating config
-[32mINFO [39m Start processing
-[32mINFO [39m Files loaded in [36m112 ms[39m
-[32mINFO [39m 0 files generated in [36m26 ms[39m
+[32mINFO [39m Files loaded in [36m82 ms[39m
+[32mINFO [39m 0 files generated in [36m27 ms[39m
 [32mINFO [39m Validating config
 [32mINFO [39m Deploying: [35mgit[39m
 [32mINFO [39m Clearing .deploy_git folder...
 [32mINFO [39m Copying files from public folder...
 [32mINFO [39m Copying files from extend dirs...
-warning: LF will be replaced by CRLF in 2023/10/27/hello-world/index.html.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in 2025/08/11/《小米创业思考》雷军/index.html.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in 2025/08/11/《心流》米哈里/index.html.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in about/index.html.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in archives/2023/10/index.html.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in archives/2023/index.html.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in archives/2025/08/index.html.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in archives/2025/index.html.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in archives/index.html.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in categories/读书笔记/index.html.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in category/index.html.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in index.html.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in tag/index.html.
-The file will have its original line endings in your working directory
-[master 7612f1b] Site updated: 2025-08-13 16:39:23
- 13 files changed, 26 insertions(+), 15 deletions(-)
+On branch master
+nothing to commit, working tree clean
 warning: ----------------- SECURITY WARNING ----------------
 warning: | TLS certificate verification has been disabled! |
 warning: ---------------------------------------------------
@@ -59,14 +17,10 @@ warning: ----------------- SECURITY WARNING ----------------
 warning: | TLS certificate verification has been disabled! |
 warning: ---------------------------------------------------
 warning: HTTPS connections may not be secure. See https://aka.ms/gcmcore-tlsverify for more information.
-remote: Powered by [01;33mGITEE.COM [0m[1.1.5]        
-remote: Set trace flag 5f4d73ba        
 Branch 'master' set up to track remote branch 'master' from 'https://gitee.com/dongzh_repo/hexo.gitee.io.git'.
-To https://gitee.com/dongzh_repo/hexo.gitee.io.git
-   a4c099a..7612f1b  HEAD -> master
+Everything up-to-date
 On branch master
 nothing to commit, working tree clean
 Branch 'master' set up to track remote branch 'master' from 'git@github.com:MetalJTop/MetalJTop.github.io.git'.
-To github.com:MetalJTop/MetalJTop.github.io.git
-   a4c099a..7612f1b  HEAD -> master
+Everything up-to-date
 [32mINFO [39m Deploy done: [35mgit[39m
