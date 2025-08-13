@@ -24,3 +24,14 @@ nothing to commit, working tree clean
 Branch 'master' set up to track remote branch 'master' from 'git@github.com:MetalJTop/MetalJTop.github.io.git'.
 Everything up-to-date
 [32mINFO [39m Deploy done: [35mgit[39m
+warning: LF will be replaced by CRLF in deploy_log.txt.
+The file will have its original line endings in your working directory
+[source 9a683a7] update
+ 2 files changed, 27 insertions(+), 81 deletions(-)
+ rewrite deploy_log.txt (70%)
+To github.com:MetalJTop/MetalJTop.github.io.git
+   6cfddce..9a683a7  source -> source
+remote: Powered by [01;33mGITEE.COM [0m[1.1.5]        
+remote: Set trace flag 6546d2ac        
+To gitee.com:dongzh_repo/hexo.gitee.io.git
+   6cfddce..9a683a7  source -> source
