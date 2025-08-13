@@ -1,20 +1,23 @@
 @echo off
+@REM chcp 65001 >null
 setlocal enabledelayedexpansion
+
+set "logfile=%~dp0deploy_log.txt"
+
 set msg=%1
 if "%msg%"=="" set msg=update
 
-REM 出错就退出
-call :run hexo g
-call :run hexo d
-call :run git add .
-call :run git commit -m "%msg%"
-call :run git push all source
-exit /b
+echo "123"
+call hexo g >> "%logfile%" 2>&1
+echo hexo g done
+pause
+echo "456"
+call hexo d >> "%logfile%" 2>&1
 
-:run
-%*
-if errorlevel 1 (
-    echo 命令执行失败: %*
-    exit /b %errorlevel%
-)
-exit /b
+echo "789"
+git add . >> "%logfile%" 2>&1
+echo "110"
+git commit -m "%msg%" >> "%logfile%" 2>&1
+echo "111"
+git push all source >> "%logfile%" 2>&1
+echo "112"
